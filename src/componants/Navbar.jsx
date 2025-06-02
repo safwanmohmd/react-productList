@@ -2,10 +2,10 @@ import React from 'react'
 
 const Navbar =  ({search, category}) => {
   return (
-    <div className='text-white flex justify-between rounded p-5 bg-gray-800'>
-         <input className='border rounded p-2' onInput={search} type="search" placeholder="Search a Product" />
-         <h1 className='font-bold text-4xl'> Products</h1>
-     <select className='text-black bg-white p-2 rounded' onChange={category}  name="" id="">
+    <div className='flex flex-wrap justify-between items-center p-4 bg-gray-800 text-white w-full'>
+         <input className='sm:w-auto w-full border rounded p-2' onInput={search} type="search" placeholder="Search a Product" />
+         <h1 className='text-center font-bold text-4xl'> Products</h1>
+     <select className='sm:w-auto w-full text-black bg-white p-2 rounded' onChange={category}  name="" id="">
         <option value="all">All</option>
         <option value="jewelery">jewelery</option>
         <option value="men's clothing">men's clothing</option>
