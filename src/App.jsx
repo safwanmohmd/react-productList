@@ -3,13 +3,13 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import ProductCard from './componants/ProductCard'
-import Home from './pages/home'
+import ProductList from './pages/ProductList'
 function App() {
   
   return (
     <>
  
-      <Home />
+      <ProductList />
     </>
   )
 }

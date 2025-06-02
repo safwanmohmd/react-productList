@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import ProductCard from '../componants/ProductCard'
 import Navbar from '../componants/Navbar'
-const Home = () => {
+const ProductList = () => {
 const [products,setProducts] = useState([])
 const [filteredProduct, setFilteredProduct] = useState([])
     const getProducts = async ()=>{
@@ -43,4 +43,4 @@ setFilteredProduct(response.data)
   )
 }
 
-export default Home
+export default ProductList
