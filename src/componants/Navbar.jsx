@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar =  ({search, category}) => {
   return (
-    <div className='flex flex-wrap justify-between items-center p-4 bg-gray-800 text-white w-full'>
+    <div className='flex flex-col gap-2 flex-wrap sm:flex-row sm:items-center justify-between items-center p-4 bg-gray-800 text-white w-full'>
          <input className='sm:w-auto w-full border rounded p-2' onInput={search} type="search" placeholder="Search a Product" />
          <h1 className='text-center font-bold text-4xl'> Products</h1>
      <select className='sm:w-auto w-full text-black bg-white p-2 rounded' onChange={category}  name="" id="">
