@@ -1,0 +1,10 @@
+.card:hover{
+scale: 1.1;
+}
+
+.card{
+    transition: 300ms;
+}
+body{
+    background-color: rgb(0, 78, 102);
+}
