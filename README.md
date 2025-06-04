@@ -1,4 +1,4 @@
-## Live preview[https://productsdev.netlify.app/]
+## [Live preview](https://productsdev.netlify.app/)
 ---
 
 ## 🚀 Features
